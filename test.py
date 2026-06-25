@@ -1,1 +1,3 @@
-print(Success)
+print("Success")
+
+print("Local success")
