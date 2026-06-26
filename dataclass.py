@@ -13,3 +13,4 @@ def info(user: User) -> str:
     return f"Имя: {user.name} \t Возраст: {user.age} \n"
 
 print(info(user1), info(user2))
+print(info.__annotations__)
